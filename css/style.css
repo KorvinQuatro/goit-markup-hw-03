@@ -21,6 +21,7 @@ body {
 img {
   display: block;
   max-width: 100%;
+  margin: 0;
 }
 
 /* Container */
@@ -106,21 +107,15 @@ img {
   align-items: center;
   margin-left: auto;
 }
-
 .adress {
   color: var(--primary-text-color);
   font-weight: 500;
   text-decoration: none;
-  margin-right: 50px; 
+  margin-left: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
   display: flex;
 }
-
-.adress:last-child {
-  margin-right: 0;
-}
-
 .adress:hover,
 .adress:focus {
   color: var(--accent-color);
@@ -169,6 +164,7 @@ img {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  display: none;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -295,10 +291,11 @@ padding-bottom: 30px;
   line-height: 1.7;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 .adress-gps {
   color: var(--white);
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 9px;
 }
 .adress-mail {
@@ -311,9 +308,14 @@ padding-bottom: 30px;
   text-decoration: none;
 }
 
+/* Portfolio-main */
+
+.portfolio-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Portfolio filter */
 .site-filter {
-  margin-top: 94px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -349,7 +351,7 @@ padding-bottom: 30px;
   padding-left: 0;
   margin-left: -30px;
   margin-top: -30px;
-  margin-bottom: 94px;
+  margin-bottom: 0;
 }
 .portfolio-examples {
   flex-basis: calc(100% / 3 - 30px);
@@ -363,6 +365,8 @@ padding-bottom: 30px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .portfolio-link {
   color: var(--primary-text-color);

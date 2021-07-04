@@ -23,8 +23,8 @@
                     </ul>
                 </nav>
                     <ul class="nav-adress list">
-                        <li><a class="adress list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="adress list" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                        <li><a class="adress adress-envelope list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li><a class="adress adress-smartphone list" href="tel:+380961111111">+38 096 111 11 11</a></li>
                     </ul>
             </div>
         </header>
@@ -32,7 +32,7 @@
 
             <!-- Герой -->
 
-            <section class="hero">
+            <section class="hero overlay">
                 <div class="container">
                     <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
                     <button class="hero-button">Заказать услугу</button>
@@ -46,19 +46,19 @@
                     <h2 class="section-features-title">Наши особенности</h2>
                     <ul class="features list">
                         <li class="features-item">
-                            <h3 class="features-title list">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
+                            <h3 class="features-title icon-antenna list">ВНИМАНИЕ К ДЕТАЛЯМ</h3>
                             <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                         </li>
                         <li class="features-item">
-                            <h3 class="features-title list">ПУНКТУАЛЬНОСТЬ</h3>
+                            <h3 class="features-title icon-clock list">ПУНКТУАЛЬНОСТЬ</h3>
                             <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                         </li>
                         <li class="features-item">
-                            <h3 class="features-title list">ПЛАНИРОВАНИЕ</h3>
+                            <h3 class="features-title icon-diagram list">ПЛАНИРОВАНИЕ</h3>
                             <p class="features-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                         </li>
                         <li class="features-item">
-                            <h3 class="features-title list">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
+                            <h3 class="features-title icon-astronaut list">СОВРЕМЕННЫЕ ТЕХНОЛОГИИ</h3>
                             <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                         </li>
                     </ul>
@@ -67,22 +67,22 @@
 
             <!-- Чем мы занимаемся -->
 
-                <section class="section-work">
-                    <div class="container">
-                        <h2 class="section-work-title">Чем мы занимаемся</h2>
-                        <ul class="work">
-                            <li class="work-img list">
-                                <img src="./img/img.jpg" alt="Создание сайтов" width="370">
-                            </li>
-                            <li class="work-img list">
-                                <img src="./img/img2.jpg" alt="Адаптивная верстка" width="370">
-                            </li>
-                            <li class="work-img list">
-                                <img src="./img/img3.jpg" alt="Разнообразие стилей сайтов" width="370">
-                            </li>
-                        </ul>
-                    </div>
-                </section>
+            <section class="section-work">
+                <div class="container">
+                    <h2 class="section-work-title">Чем мы занимаемся</h2>
+                    <ul class="work">
+                        <li class="work-img list">
+                            <img src="./img/img.jpg" alt="Создание сайтов" width="370">
+                        </li>
+                        <li class="work-img list">
+                            <img src="./img/img2.jpg" alt="Адаптивная верстка" width="370">
+                        </li>
+                        <li class="work-img list">
+                            <img src="./img/img3.jpg" alt="Разнообразие стилей сайтов" width="370">
+                        </li>
+                    </ul>
+                </div>
+            </section>
             
             <!-- Наша команда -->
 
@@ -95,6 +95,12 @@
                             <div class="employee-info">
                                 <h3 class="employee-title">Игорь Демьяненко</h3>
                                 <p class="employee-position">Product Designer</p>
+                                <div class="sn-link">
+                                    <a href="" class="instagram-link"></a>
+                                    <a href="" class="twitter-link"></a>
+                                    <a href="" class="facebook-link"></a>
+                                    <a href="" class="linkedin-link"></a>
+                                </div>
                             </div>
                         </li>
                         <li class="employee-item">
@@ -102,13 +108,25 @@
                             <div class="employee-info">
                                 <h3 class="employee-title">Ольга Репина</h3>
                                 <p class="employee-position">Frontend Developer</p>
+                                <div class="sn-link">
+                                    <a href="" class="instagram-link"></a>
+                                    <a href="" class="twitter-link"></a>
+                                    <a href="" class="facebook-link"></a>
+                                    <a href="" class="linkedin-link"></a>
+                                </div>
                             </div>
                         </li>
                         <li class="employee-item">
                             <img src="./img/img6.jpg" alt="Николай Тарасов" width="270">
                             <div class="employee-info">
                                 <h3 class="employee-title">Николай Тарасов</h3>
-                                <p class="employee-position">Frontend Developer</p>
+                                <p class="employee-position marketing-sn">Marketing</p>
+                                <div class="sn-link">
+                                    <a href="" class="instagram-link"></a>
+                                    <a href="" class="twitter-link"></a>
+                                    <a href="" class="facebook-link"></a>
+                                    <a href="" class="linkedin-link"></a>
+                                </div>
                             </div>
                             </li>
                         <li class="employee-item">
@@ -116,22 +134,69 @@
                             <div class="employee-info">
                                 <h3 class="employee-title">Михаил Ермаков</h3>
                                 <p class="employee-position">UI Designer</p>
+                                <div class="sn-link">
+                                    <a href="" class="instagram-link"></a>
+                                    <a href="" class="twitter-link"></a>
+                                    <a href="" class="facebook-link"></a>
+                                    <a href="" class="linkedin-link"></a>
+                                </div>
                             </div>
                             </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Постоянные клиенты -->
+
+            <section class="section-clients">
+                <div class="container">
+                    <h2 class="section-clients-title">Постоянные клиенты</h2>
+                    <ul class="clients">
+                        <li class="clients-link list">
+                            <a href="" class="ya-and-co"></a>
+                        </li>
+                        <li class="clients-link list">
+                            <a href="" class="company-tagline-here"></a>
+                        </li>
+                        <li class="clients-link list">
+                            <a href="" class="company"></a>
+                        </li>
+                        <li class="clients-link list">
+                            <a href="" class="foster-peters"></a>
+                        </li>
+                        <li class="clients-link list">
+                            <a href="" class="brand"></a>
+                        </li>
+                        <li class="clients-link list">
+                            <a href="" class="company-tag-line"></a>
+                        </li>
                     </ul>
                 </div>
             </section>
         </main>
         <footer class="footer">
             <div class="container">
-                <a href="./index.html" class="logo">
-                    <span class="footer-logo-first">Web</span><span class="footer-logo-second">Studio</span>
-                </a>
-                <address class="footer-adress">
-                    <p class="adress-gps">г. Киев, пр-т Леси Украинки, 26</p>
-                    <a class="adress-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a class="adress-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-                </address>
+                <div class="footer-base">
+                    <div>
+                        <a href="./index.html" class="logo">
+                            <span class="footer-logo-first">Web</span><span class="footer-logo-second">Studio</span>
+                        </a>
+                        <address class="footer-adress">
+                            <p class="adress-gps">г. Киев, пр-т Леси Украинки, 26</p>
+                            <a class="adress-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            <a class="adress-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </address>
+                    </div>
+                    <div class="sn-adress">
+                        <h3 class="social-network-title" >ПРИСОЕДИНЯЙТЕСЬ</h3>
+                        <div class="our-sn-link">
+                            <a href="" class="our-instagram"></a>
+                            <a href="" class="our-twitter"></a>
+                            <a href="" class="our-facebook"></a>
+                            <a href="" class="our-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
     </body>
